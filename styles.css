@@ -1,0 +1,19 @@
+
+.bg-body-tertiary {
+      background-color: #d9ede1 !important;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+
+}
+
+.font {
+    color: #231f20;
+    font-family: "work-sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
