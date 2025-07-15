@@ -1,10 +1,11 @@
 body.accessible-mode .navFont,
 body.accessible-mode .fontHeading {
-  font-size: 130%;
+    font-size: 130%;
 }
 
-body.accessible-mode{
-  font-size: 200%; /* Doubles the font size globally */
+body.accessible-mode {
+    font-size: 200%;
+    /* Doubles the font size globally */
 }
 
 .bg-body-tertiary {
@@ -52,6 +53,15 @@ body.accessible-mode{
     border-top: 4px solid #388b49 !important;
 }
 
+.border-sides {
+    border-left: 4px solid #388b49 !important;
+    border-right: 4px solid #388b49 !important;
+}
+
+.homeImg {
+    border-radius: 10px;
+}
+
 .statRow {
     display: flex;
     justify-content: center;
@@ -67,11 +77,12 @@ body.accessible-mode{
 }
 
 .bristolStat {
-   margin: 0px;
-   align-content: center;
+    margin: 0px;
+    align-content: center;
 }
 
-.paraHome, .footerContent {
+.paraHome,
+.footerContent {
     padding: 0px;
     margin: 0px;
 }
@@ -80,27 +91,104 @@ body.accessible-mode{
     text-align: end
 }
 
-html, body {
-  height: 100%;
-  margin: 0;
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .accessibilityFooter {
-  margin-top: auto;
+    margin-top: auto;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
 }
+
 
 .sendButton {
     background-color: #d9ede1 !important;
     border-color: #388b49 !important;
     color: #231f20;
+    border-radius: 10px;
+}
+
+.sendButton:hover {
+    background-color: #eeeeee !important;
+    color: #231f20 !important;
+}
+
+.form-control {
+    border-radius: 10px !important;
+}
+
+.form-control:hover {
+    background-color: #d9ede1 !important;
 }
 
 .button-wrapper {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.communityLink {
+    width: 80%;
+    background-color: #d9ede1 !important;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#map {
+    height: 100%;
+    width: 73%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+@media (max-width: 767.98px) {
+    #map {
+        width: 100%;
+    }
+}
+
+.mapAndFilter {
+    min-height: 80vh;
+}
+
+@media (max-width: 767.98px) {
+    .mapAndFilter {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+}
+
+
+.filterBox {
+    background-color: #d9ede1 !important;
+    margin-left: 10px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+@media (max-width: 767.98px) {
+    .filterBox {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        margin-left: 0 !important;
+    }
+}
+
+.nextSteps {
+    padding-top: 150px;
+    text-align: center;
 }
