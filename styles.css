@@ -136,6 +136,12 @@ body {
     border-radius: 10px;
 }
 
+.reportingSteps {
+    width: 60%;
+    background-color: #d9ede1 !important;
+    border-radius: 10px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -193,4 +199,17 @@ body {
 .nextSteps {
     padding-top: 150px;
     text-align: center;
+}
+
+.reportWaste{
+    height: 60px;
+    font-size: 15pt;
+    background-color: #d9ede1 !important;
+    border-color: #388b49 !important;
+    color: #231f20
+}
+
+.reportWaste:hover{
+    background-color: #eeeeee !important;
+    color: #388b49;
 }
