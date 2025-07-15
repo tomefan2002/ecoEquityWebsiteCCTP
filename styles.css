@@ -91,13 +91,6 @@ body.accessible-mode {
     text-align: end
 }
 
-html,
-body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 body {
     display: flex;
     flex-direction: column;
@@ -106,7 +99,7 @@ body {
 
 .accessibilityFooter {
     margin-top: auto;
-    position:fixed;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -148,9 +141,27 @@ a {
     color: inherit;
 }
 
-#map {
+html,
+body {
     height: 100%;
-    width: 73%;
+    margin: 0;
+}
+
+.mapAndFilter {
+    min-height: 80vh;
+    align-items: stretch;
+}
+
+.mapWrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#map {
+    flex-grow: 1;
+    width: 100%;
+    min-height: 80vh;
     margin-bottom: 15px;
     border-radius: 10px;
 }
@@ -159,33 +170,24 @@ a {
     #map {
         width: 100%;
     }
-}
 
-.mapAndFilter {
-    min-height: 80vh;
-}
-
-@media (max-width: 767.98px) {
     .mapAndFilter {
-        padding-right: 10px !important;
         padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .filterBox {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        margin-left: 0 !important;
     }
 }
-
 
 .filterBox {
     background-color: #d9ede1 !important;
     margin-left: 10px;
     height: 200px;
     border-radius: 10px;
-}
-
-@media (max-width: 767.98px) {
-    .filterBox {
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-        margin-left: 0 !important;
-    }
 }
 
 .nextSteps {
