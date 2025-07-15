@@ -1,6 +1,14 @@
+body.accessible-mode .navFont,
+body.accessible-mode .fontHeading {
+  font-size: 130%;
+}
+
+body.accessible-mode{
+  font-size: 200%; /* Doubles the font size globally */
+}
 
 .bg-body-tertiary {
-      background-color: #d9ede1 !important;
+    background-color: #d9ede1 !important;
 }
 
 .navbar-toggler,
@@ -11,9 +19,88 @@
 
 }
 
-.font {
+.navFont {
     color: #231f20;
     font-family: "work-sans", sans-serif;
     font-weight: 900;
     font-style: normal;
+    font-size: 15pt;
+}
+
+.fontHeading {
+    font-family: "work-sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20pt;
+}
+
+.fontBody {
+    font-family: "work-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.homeBody {
+    background-color: #eeeeee;
+}
+
+.border-bottom {
+    border-bottom: 4px solid #388b49 !important;
+}
+
+.border-top {
+    border-top: 4px solid #388b49 !important;
+}
+
+.statRow {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: #d9ede1 !important;
+}
+
+.footerRow {
+    text-align: end;
+    align-content: center;
+    height: 70px;
+    background-color: #d9ede1 !important;
+}
+
+.bristolStat {
+   margin: 0px;
+   align-content: center;
+}
+
+.paraHome, .footerContent {
+    padding: 0px;
+    margin: 0px;
+}
+
+.howItWorks {
+    text-align: end
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.accessibilityFooter {
+  margin-top: auto;
+}
+
+.sendButton {
+    background-color: #d9ede1 !important;
+    border-color: #388b49 !important;
+    color: #231f20;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: flex-end;
 }

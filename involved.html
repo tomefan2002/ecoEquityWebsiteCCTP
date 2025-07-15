@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EcoEquity</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/jaa5gul.css">
+</head>
+
+<body class="homeBody">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/logoFull-01.png" alt="Logo" width="auto" height="45px" class="logoFull">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto navFont">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Heatmap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Report &amp; Track</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="involved.html">Get Involved</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row pt-4 gx-0">
+        <div class="col-sm-6 px-3">
+            <p class="fontHeading paraHome">get involved</p>
+            <p class="fontBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-sm-6  px-3">
+            <img src="assets/bus_shelter_promo_poster.png" class="img-fluid">
+        </div>
+    </div>
+    <div class="pt-4">
+        <div class="container-fluid statRow border-top border-bottom">
+            <p class="fontHeading bristolStat">Bristol Stat Here</p>
+        </div>
+    </div>
+    <div class="row pt-3 gx-0">
+        <div class="col px-3 howItWorks">
+            <p class="fontHeading paraHome">How does EcoEquity work?</p>
+            <p class="fontBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+
+    <div class="pt-4">
+        <div class="container-fluid footerRow border-top">
+            <p class="fontBody footerContent" onclick="enableAccessibleMode()">Accessible mode</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Apply mode on page load
+        if (localStorage.getItem('accessibleMode') === 'true') {
+            document.body.classList.add('accessible-mode');
+        }
+
+        function enableAccessibleMode() {
+            document.body.classList.toggle('accessible-mode');
+            const isEnabled = document.body.classList.contains('accessible-mode');
+            localStorage.setItem('accessibleMode', isEnabled);
+        }
+    </script>
+
+</body></html>
