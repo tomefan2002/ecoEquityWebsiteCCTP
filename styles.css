@@ -5,7 +5,6 @@ body.accessible-mode .fontHeading {
 
 body.accessible-mode {
     font-size: 200%;
-    /* Doubles the font size globally */
 }
 
 .bg-body-tertiary {

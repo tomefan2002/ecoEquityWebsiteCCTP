@@ -66,7 +66,7 @@
             <p class="fontBody footerContent" onclick="enableAccessibleMode()">Accessible mode</p>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">// CDN for bootstrap5</script>
     <script>
         if (localStorage.getItem('accessibleMode') === 'true') {
             document.body.classList.add('accessible-mode');
@@ -78,7 +78,7 @@
             localStorage.setItem('accessibleMode', isEnabled);
         }
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js">// CDN for emailJS</script> 
     <script>
         emailjs.init("r-YSr0juuoKDT7DX2");
         document.getElementById("contactForm").addEventListener("submit", function(e) {
