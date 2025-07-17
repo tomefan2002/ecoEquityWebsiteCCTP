@@ -33,7 +33,7 @@
                 .then(data => {
                     const heatmapData = data.map(point => ({
                         location: new google.maps.LatLng(point.lat, point.lng),
-                        weight: 0.1
+                        weight: 0.5
                     }));
 
                     heatmap = new google.maps.visualization.HeatmapLayer({
@@ -46,11 +46,13 @@
                     console.error("Error loading heatmap data:", error);
                 });
         }
+
     </script>
     <style>
         #map {
             height: 100%;
         }
+
     </style>
 </head>
 
@@ -72,7 +74,7 @@
                         <a class="nav-link" href="heatmap.html">Heatmap</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Report &amp; Track</a>
+                        <a class="nav-link" href="form.html">Report &amp; Track</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact Us</a>
@@ -91,12 +93,18 @@
             </div>
             <div class="col-12 col-md-3 filterBox px-2 border-top border-bottom border-sides">
                 <p class="fontHeading paraHome">Filters</p>
-                <p class="fontBody">Lorem ipsum dolor sit amet</p>
+                <label for="timeframeSelect" class="fontBody mb-1">Timeframe</label>
+                <select id="timeframeSelect" class="form-select fontBody border-top border-bottom border-sides">
+                    <option value="all-time" selected>All Time</option>
+                    <option value="today">Today</option>
+                    <option value="last-week">Last Week</option>
+                    <option value="last-month">Last Month</option>
+                </select>
             </div>
         </div>
     </div>
     <div class="pt-4">
-        <div class="container-fluid statRow border-top border-bottom">
+        <div class="container-fluid statRow2 border-top border-bottom">
             <p class="fontHeading bristolStat">To file a report of waste or pollution follow the steps below!</p>
         </div>
     </div>
@@ -110,7 +118,9 @@
             </div>
             <div class="col-sm-6 px-3">
                 <div class="d-grid gap-3">
-                    <button class="btn btn-success w-100 reportWaste border-top border-bottom border-sides">Report waste</button>
+                    <a href="form.html">
+                        <button class="btn btn-success w-100 reportWaste border-top border-bottom border-sides">Report waste and Report status</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -132,6 +142,7 @@
             const isEnabled = document.body.classList.contains('accessible-mode');
             localStorage.setItem('accessibleMode', isEnabled);
         }
+
     </script>
 
 </body>

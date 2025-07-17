@@ -3,90 +3,120 @@
         "id": 1,
         "lat": 51.4572041156,
         "lng": -2.58564914143,
-        "status": "Ongoing"
+        "status": "Ongoing",
+        "date": "15/07/2025",
+        "danger": true
     },
     {
         "id": 2,
         "lat": 51.441747180510106,
         "lng": -2.5599558321904605,
-        "status": "Ongoing"
+        "status": "Ongoing",
+        "date": "15/07/2025",
+        "danger": false
     },
     {
         "id": 3,
-        "lat": 51.441747180510106,
-        "lng": -2.5599558321904605,
-        "status": "Ongoing"
+        "lat": 51.465378,
+        "lng": -2.569754,
+        "status": "Ongoing",
+        "date": "15/07/2025",
+        "danger": true
     },
     {
         "id": 4,
-        "lat": 51.4572041156,
-        "lng": -2.58564914143,
-        "status": "Ongoing"
+        "lat": 51.468503,
+        "lng": -2.566147,
+        "status": "Ongoing",
+        "date": "15/07/2025",
+        "danger": true
     },
     {
         "id": 5,
-        "lat": 51.4572041156,
-        "lng": -2.58564914143,
-        "status": "Ongoing"
+        "lat": 51.468187,
+        "lng": -2.568314,
+        "status": "Ongoing",
+        "date": "15/07/2025",
+        "danger": false
     },
     {
         "id": 6,
-        "lat": 51.4572041156,
-        "lng": -2.58564914143,
-        "status": "Ongoing"
+        "lat": 51.454971,
+        "lng": -2.59115,
+        "status": "Ongoing",
+        "date": "15/07/2025",
+        "danger": true
     },
     {
         "id": 7,
-        "lat": 51.441747180510106,
-        "lng": -2.5599558321904605,
-        "status": "Ongoing"
+        "lat": 51.453708,
+        "lng": -2.607903,
+        "status": "Ongoing",
+        "date": "15/07/2025",
+        "danger": false
     },
     {
         "id": 8,
-        "lat": 51.4572041156,
-        "lng": -2.58564914143,
-        "status": "Ongoing"
+        "lat": 51.464378,
+        "lng": -2.57948,
+        "status": "Ongoing",
+        "date": "15/07/2025",
+        "danger": true
     },
     {
         "id": 9,
-        "lat": 51.4572041156,
-        "lng": -2.58564914143,
-        "status": "Ongoing"
+        "lat": 51.46486,
+        "lng": -2.575897,
+        "status": "Ongoing",
+        "date": "15/07/2025",
+        "danger": true
     },
     {
         "id": 10,
-        "lat": 51.4572041156,
-        "lng": -2.58564914143,
-        "status": "Ongoing"
+        "lat": 51.471555,
+        "lng": -2.566684,
+        "status": "Ongoing",
+        "date": "15/07/2025",
+        "danger": true
     },
     {
         "id": 11,
-        "lat": 51.4572041156,
-        "lng": -2.58564914143,
-        "status": "Ongoing"
+        "lat": 51.475945,
+        "lng": -2.553922,
+        "status": "Ongoing",
+        "date": "15/07/2025",
+        "danger": false
     },
     {
         "id": 12,
-        "lat": 51.4572041156,
-        "lng": -2.58564914143,
-        "status": "Ongoing"
+        "lat": 51.469252,
+        "lng": -2.559479,
+        "status": "Ongoing",
+        "date": "15/07/2025",
+        "danger": false
     },
     {
         "id": 13,
-        "lat": 51.4572041156,
-        "lng": -2.58564914143,
-        "status": "Ongoing"
+        "lat": 51.45788,
+        "lng": -2.563293,
+        "status": "Ongoing",
+        "date": "15/07/2025",
+        "danger": true
     },
     {
         "id": 14,
-        "lat": 51.4572041156,
-        "lng": -2.58564914143,
-        "status": "Ongoing"
+        "lat": 51.440845,
+        "lng": -2.592212,
+        "status": "Ongoing",
+        "date": "15/07/2025",
+        "danger": true
     },
     {
         "id": 15,
-        "lat": 51.4572041156,
-        "lng": -2.58564914143,
-        "status": "Ongoing"
+        "lat": 51.415293,
+        "lng": -2.584888,
+        "status": "Ongoing",
+        "date": "15/07/2025",
+        "danger": true
     }
 ]
